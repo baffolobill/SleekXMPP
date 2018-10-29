@@ -11,13 +11,13 @@ from sleekxmpp.xmlstream import ElementBase, ET
 
 class Invisible(ElementBase):
     name = 'invisible'
-    namespace = 'urn:xmpp:invisible:0'
+    namespace = 'urn:xmpp:invisible:1'
     plugin_attrib = 'invisible'
     interfaces = set()
 
 
 class Visible(ElementBase):
     name = 'visible'
-    namespace = 'urn:xmpp:visible:0'
+    namespace = 'urn:xmpp:visible:1'
     plugin_attrib = 'visible'
     interfaces = set()
